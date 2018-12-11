@@ -1,9 +1,11 @@
 fun String.isOneOfThese(vararg strings: String): Boolean = strings.contains(this.toLowerCase())
 
 class FinalEmptyClass // cannot be used as a parent class
-enum class Gender(val greeting: String) { Male("Mr."), Female("Mrs."), Other("Eer.") }
-open class UserBase(val name: String)
-open class Employee(val firstName: String, val lastName: String, private val gender: Gender, var countryCode: String)
+enum class Gender(val greeting: String) { Male("Mr."),
+    Female("Mrs."), Other("Eer.") }
+abstract class UserBase(val name: String)
+open class Employee(val firstName: String, val lastName: String,
+                    private val gender: Gender, var countryCode: String)
     : UserBase("{$firstName}_{$lastName}") {
     init {
         if (!this.isThirdGenderRecognized) {
