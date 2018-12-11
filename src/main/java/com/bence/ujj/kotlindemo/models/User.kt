@@ -24,6 +24,7 @@ open class Employee(override val userId: String, override val nameParts: NamePar
     override val title: String? = null
     open val formattedName
         get() = "${gender.salutation} ${nameParts.formattedName}"
+
 }
 
 class VicePresident(userId: String, nameParts: NameParts, gender: Gender) : Employee(userId, nameParts, gender) {
