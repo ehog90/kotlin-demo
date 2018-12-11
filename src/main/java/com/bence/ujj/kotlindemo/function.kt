@@ -4,11 +4,12 @@ fun echo(str: Array<String>) {
         echo(str[i])
     }
 }
-infix fun String.containsString(other: String): Boolean = this.contains(other)
+infix fun String.surround(str: String): String =
+        "$str${this}$str"
 fun List<String>.myMap(fn: (String) -> String) = this.map(fn);
 fun main(args: Array<String>) {
     //infix function
-    println("batman" containsString "man") //true
+    println("test" surround  "-" surround "!") //!-test-!
     val function: (String) -> String = {
         when (it) {
             "one" ->"ONE"
