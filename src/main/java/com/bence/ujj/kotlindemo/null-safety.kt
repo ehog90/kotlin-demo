@@ -1,7 +1,7 @@
 package com.bence.ujj.kotlindemo
 
 fun main(args: Array<String>) {
-    var someInt = 0;
+    /*var someInt = 0;
     var anotherInt: Int = 0
     someInt = null // Compilation error
     anotherInt = null // Compilation error
@@ -17,5 +17,5 @@ fun main(args: Array<String>) {
     val stringLength: Int? = nullableString?.length
 
     //NPE: If the expression is null, it will throw an NPE.
-    var stringLength2 = nullableString!!.substring(0,1)
+    var stringLength2 = nullableString!!.substring(0,1)*/
 }
