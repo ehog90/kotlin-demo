@@ -1,4 +1,4 @@
-package com.bence.ujj.kotlindemo
+package com.bence.ujj.kotlindemo.showcase
 
 
 operator fun <T> List<T>.div(other: List<T>): List<T> =

@@ -1,3 +1,5 @@
+package com.bence.ujj.kotlindemo.showcase
+
 private fun echo(str: String) = println(str)
 fun echo(str: Array<String>) {
     for (i in 0..str.size) {

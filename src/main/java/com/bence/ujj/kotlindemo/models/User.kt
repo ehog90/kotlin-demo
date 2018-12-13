@@ -38,7 +38,7 @@ class VicePresident(userId: String, nameParts: NameParts, gender: Gender) : Empl
 data class StoredUser(@NotNull(message = "Unique ID is mandatory") @Indexed(unique = true) @Length(min = 5, max = 5) override val userId: String,
                       @NotNull(message = "Name fields are mandatory") override val nameParts: NameParts,
                       override var title: String?,
-                      @NotNull(message = "Gender is mandatory") override val gender: Gender) : User() {
+                      @NotNull(message = "com.bence.ujj.kotlindemo.showcase.Gender is mandatory") override val gender: Gender) : User() {
 
     @Id
     lateinit var id: ObjectId

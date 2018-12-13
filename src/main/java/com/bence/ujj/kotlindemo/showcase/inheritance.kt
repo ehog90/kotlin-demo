@@ -1,3 +1,5 @@
+package com.bence.ujj.kotlindemo.showcase
+
 fun String.isOneOfThese(vararg strings: String): Boolean = strings.contains(this.toLowerCase())
 
 class FinalEmptyClass // cannot be used as a parent class

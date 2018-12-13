@@ -1,3 +1,5 @@
+package com.bence.ujj.kotlindemo.showcase
+
 fun main(args: Array<String>)  {
     val greeter = Greeter()
     println(greeter.greet())

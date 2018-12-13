@@ -1,3 +1,5 @@
+package com.bence.ujj.kotlindemo.showcase
+
 import java.util.*
 
 object singleton {

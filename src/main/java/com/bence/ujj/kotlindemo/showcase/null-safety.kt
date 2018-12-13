@@ -1,4 +1,4 @@
-package com.bence.ujj.kotlindemo
+package com.bence.ujj.kotlindemo.showcase
 
 fun main(args: Array<String>) {
     /*var someInt = 0;

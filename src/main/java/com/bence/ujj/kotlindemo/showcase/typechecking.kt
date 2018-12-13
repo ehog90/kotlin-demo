@@ -1,4 +1,4 @@
-package com.bence.ujj.kotlindemo
+package com.bence.ujj.kotlindemo.showcase
 
 import java.lang.Exception
 

@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class EchoController {
 
-    @RequestMapping("/echo")
+    @RequestMapping("/com.bence.ujj.kotlindemo.showcase.echo")
     public String echoParam(@RequestParam(value = "name", defaultValue = "test") String name) {
         return name;
     }

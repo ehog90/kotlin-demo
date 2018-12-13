@@ -1,4 +1,4 @@
-/*fun main(args: Array<String>) {
+package com.bence.ujj.kotlindemo.showcase/*fun com.bence.ujj.kotlindemo.showcase.main(args: Array<String>) {
     println("Hello, World")
 }*/
 
